@@ -39,3 +39,5 @@ footer>div>div{display:flex;flex-direction:column;align-items:center}footer #foo
 .sp-achievements .sp-achcard.t3-on>h3{transform:translateZ(50px)}
 .sp-achievements .sp-achcard.t3-on>p{transform:translateZ(40px)}
 .sp-achievements .sp-achcard.t3-on>span:last-child{transform:translateZ(30px)}
+@media (min-width:1024px){.sp-hero>div>.grid{clear:both;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.sp-hero>div>.grid>.sp-card{margin:0}}
+@media (min-width:1024px){.sp-hero>div:has(+.sp-pack){margin-bottom:1.5rem}.sp-hero>.sp-pack+div>:first-child{margin-top:0}}@media (min-width:900px){.sp-variant>.sp-pack+div>:first-child{margin-top:0}}
