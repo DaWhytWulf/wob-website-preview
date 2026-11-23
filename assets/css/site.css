@@ -41,3 +41,8 @@ footer>div>div{display:flex;flex-direction:column;align-items:center}footer #foo
 .sp-achievements .sp-achcard.t3-on>span:last-child{transform:translateZ(30px)}
 @media (min-width:1024px){.sp-hero>div>.grid{clear:both;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.sp-hero>div>.grid>.sp-card{margin:0}}
 @media (min-width:1024px){.sp-hero>div:has(+.sp-pack){margin-bottom:1.5rem}.sp-hero>.sp-pack+div>:first-child{margin-top:0}}@media (min-width:900px){.sp-variant>.sp-pack+div>:first-child{margin-top:0}}
+section.bg-onyx,section.bg-charcoal{background-color:rgba(18,18,18,var(--section-opacity))!important}
+#our-story,#story,#leadership,#brands,#events,#achievements,#newsroom,#contact{border-top-width:0;padding-top:4rem;padding-bottom:4rem}
+@media (min-width:768px){#our-story,#story,#leadership,#brands,#events,#achievements,#newsroom,#contact{padding-top:5rem;padding-bottom:5rem}}
+body>footer.bg-onyx{border-top-width:0;padding-top:4rem}
+@media (min-width:768px){body>footer.bg-onyx{padding-top:5rem}}
