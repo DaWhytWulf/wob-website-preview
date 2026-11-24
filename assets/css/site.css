@@ -45,4 +45,6 @@ section.bg-onyx,section.bg-charcoal{background-color:rgba(18,18,18,var(--section
 #our-story,#story,#leadership,#brands,#events,#achievements,#newsroom,#contact{border-top-width:0;padding-top:4rem;padding-bottom:4rem}
 @media (min-width:768px){#our-story,#story,#leadership,#brands,#events,#achievements,#newsroom,#contact{padding-top:5rem;padding-bottom:5rem}}
 body>footer.bg-onyx{border-top-width:0;padding-top:4rem}
-@media (min-width:768px){body>footer.bg-onyx{padding-top:5rem}}
+@media (min-width:768px){body>footer.bg-onyx{padding-top:5rem}}.sp-pack.photo{padding:0}
+.sp-pack.photo::before{display:none}
+.sp-pack.photo img{width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;object-position:50% 50%;filter:none;mix-blend-mode:normal}
