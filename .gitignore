@@ -1,0 +1,10 @@
+# secrets and local files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# tool output
+*.log
+.firebase/
+node_modules/

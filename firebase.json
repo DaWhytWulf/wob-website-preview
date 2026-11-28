@@ -5,7 +5,18 @@
     "trailingSlash": false,
     "ignore": [
       "firebase.json",
+      ".firebaserc",
       "**/.*",
+      ".git/**",
+      ".github/**",
+      "**/.git/**",
+      ".firebase/**",
+      "GiG Adda/**",
+      "**/*.log",
+      "**/*.md",
+      "**/*.bak",
+      "**/*.sql",
+      "**/*.map",
       "**/node_modules/**"
     ],
     "headers": [
